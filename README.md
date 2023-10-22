@@ -2,7 +2,7 @@
 A simple C++ chat application
 
 # Build
-Build the solution in the preferred configuration
+Build the solution in the preferred configuration\n
 Run the server and create a room first!
 
 # Server instructions
