@@ -1,13 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.33529.622
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TCPClient", "TCPClient\TCPClient.vcxproj", "{4CB9D7BB-BBFF-4456-85C2-3D06D5DF8964}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TCPLib", "TCPLib\TCPLib.vcxproj", "{1ADA23C1-F5B2-4BEC-830A-1F41E4C1373E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TCPServer", "TCPServer\TCPServer.vcxproj", "{E6628B6D-6AFE-4409-92AB-8133AEDE5B84}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AuthenticationServer", "AuthenticationServer\AuthenticationServer.vcxproj", "{65ABF188-4406-4FDD-8E72-D7C6339353A6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AuthenticationClient", "AuthenticationClient\AuthenticationClient.vcxproj", "{36D92350-EA65-41B7-AE80-DF4F122E1913}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +45,22 @@ Global
 		{E6628B6D-6AFE-4409-92AB-8133AEDE5B84}.Release|x64.Build.0 = Release|x64
 		{E6628B6D-6AFE-4409-92AB-8133AEDE5B84}.Release|x86.ActiveCfg = Release|Win32
 		{E6628B6D-6AFE-4409-92AB-8133AEDE5B84}.Release|x86.Build.0 = Release|Win32
+		{65ABF188-4406-4FDD-8E72-D7C6339353A6}.Debug|x64.ActiveCfg = Debug|x64
+		{65ABF188-4406-4FDD-8E72-D7C6339353A6}.Debug|x64.Build.0 = Debug|x64
+		{65ABF188-4406-4FDD-8E72-D7C6339353A6}.Debug|x86.ActiveCfg = Debug|Win32
+		{65ABF188-4406-4FDD-8E72-D7C6339353A6}.Debug|x86.Build.0 = Debug|Win32
+		{65ABF188-4406-4FDD-8E72-D7C6339353A6}.Release|x64.ActiveCfg = Release|x64
+		{65ABF188-4406-4FDD-8E72-D7C6339353A6}.Release|x64.Build.0 = Release|x64
+		{65ABF188-4406-4FDD-8E72-D7C6339353A6}.Release|x86.ActiveCfg = Release|Win32
+		{65ABF188-4406-4FDD-8E72-D7C6339353A6}.Release|x86.Build.0 = Release|Win32
+		{36D92350-EA65-41B7-AE80-DF4F122E1913}.Debug|x64.ActiveCfg = Debug|x64
+		{36D92350-EA65-41B7-AE80-DF4F122E1913}.Debug|x64.Build.0 = Debug|x64
+		{36D92350-EA65-41B7-AE80-DF4F122E1913}.Debug|x86.ActiveCfg = Debug|Win32
+		{36D92350-EA65-41B7-AE80-DF4F122E1913}.Debug|x86.Build.0 = Debug|Win32
+		{36D92350-EA65-41B7-AE80-DF4F122E1913}.Release|x64.ActiveCfg = Release|x64
+		{36D92350-EA65-41B7-AE80-DF4F122E1913}.Release|x64.Build.0 = Release|x64
+		{36D92350-EA65-41B7-AE80-DF4F122E1913}.Release|x86.ActiveCfg = Release|Win32
+		{36D92350-EA65-41B7-AE80-DF4F122E1913}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
